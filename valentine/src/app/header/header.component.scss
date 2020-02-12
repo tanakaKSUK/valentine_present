@@ -1,0 +1,13 @@
+span{
+    margin: 0 auto;
+}
+@media screen and (min-width: 1024px){
+span{
+    margin-top:3%;
+    font-size:3em;
+}
+mat-toolbar{
+   height:10vh;
+   width:100vw;
+}
+}

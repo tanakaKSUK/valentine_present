@@ -1,0 +1,6 @@
+<div class="topImg">
+    <img class="topImgContent" src="../../assets/1.png">
+</div>
+<mat-action-list  class="scrolling">
+    <button mat-list-item (click)="onClick(i)" *ngFor="let q of ques; let i = index;"> {{q}} </button>
+</mat-action-list>

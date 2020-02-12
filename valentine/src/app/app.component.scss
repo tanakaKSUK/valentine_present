@@ -1,0 +1,49 @@
+@media screen and (min-width: 1024px){
+.line{
+    width: 500px;
+    // max-width: 50%;
+    margin: 0 auto;
+}
+button{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top:5vh;
+    font-size: x-large;
+}
+.topImg{
+    width: 400px;
+    margin: 0 auto;
+    margin-top:2vh;
+}
+.topImgContent{
+    width: 400px;
+}
+
+}
+
+@media screen and (max-width: 1024px){
+.line{
+    width: 75vw;
+    // max-width: 50%;
+    margin: 0 auto;
+}
+button{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top:5vh;
+    font-size: x-large;
+}
+.topImg{
+    width: 75vw;
+    margin: 0 auto;
+    margin-top:2vh;
+}
+.topImgContent{
+    width:75vw;
+}
+
+}

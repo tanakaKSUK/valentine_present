@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px){
+.line{
+    width: 500px;
+    // max-width: 50%;
+    margin: 0 auto;
+}
+.resultImg{
+    width: 500px;
+    // max-width: 50%;
+    margin: 0 auto;
+    margin-top:5vh;
+    border:1px dashed;
+}
+mat-card{
+    margin-top:2vh;
+    font-size:large;
+    text-align: center;
+}
+.pName{
+    font-size:xx-large;
+}
+button{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 1vh;
+    font-size: x-large;
+}
+}
+
+
+@media screen and (max-width: 1024px){
+.line{
+    width: 75vw;
+    // max-width: 50%;
+    margin: 0 auto;
+}
+.resultImg{
+    width: 75vw;
+    // max-width: 50%;
+    margin: 0 auto;
+    margin-top:10vh;
+    border:1px dashed;
+}
+mat-card{
+    margin-top:2vh;
+    font-size:large;
+    text-align: center;
+}
+.pName{
+    font-size:xx-large;
+}
+button{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 1vh;
+    font-size: x-large;
+}
+}

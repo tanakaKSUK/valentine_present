@@ -1,0 +1,7 @@
+<div class="line">
+    <mat-card *ngIf="omedetou">{{omedetou}}</mat-card>
+    <mat-card *ngIf="!omedetou">あなたにぴったりなバレンタインプレゼントはこれだ！</mat-card>
+        <img class="resultImg" src={{imgpath}}>
+    <mat-card class="pName">{{pName}}</mat-card>
+</div>
+<button mat-raised-button color="accent" (click)="onClick()">もう一度</button>
